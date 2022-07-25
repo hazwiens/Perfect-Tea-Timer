@@ -26,7 +26,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Pq-OB-CN8" userLabel="TopView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="DONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e77-jy-9Ht" userLabel="DoneLabel">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e77-jy-9Ht" userLabel="DoneLabel">
                                                 <rect key="frame" x="120.5" y="16" width="175" height="44"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <constraints>
@@ -36,8 +36,8 @@
                                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Choose the tea type you want to brew" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a53-tx-B4M" userLabel="ChoiceLabel">
-                                                <rect key="frame" x="30" y="70" width="356" height="40"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the tea type you want to brew" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a53-tx-B4M" userLabel="ChoiceLabel">
+                                                <rect key="frame" x="39" y="70" width="347" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="R3f-Cc-74z"/>
                                                 </constraints>
@@ -45,23 +45,20 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HsX-id-mYI" userLabel="ProgressBar">
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HsX-id-mYI" userLabel="ProgressBar">
                                                 <rect key="frame" x="50" y="140" width="320" height="4"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="progressTintColor" systemColor="systemGreenColor"/>
                                                 <color key="trackTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </progressView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="180" id="3Je-m3-a5s"/>
-                                            <constraint firstItem="HsX-id-mYI" firstAttribute="top" secondItem="a53-tx-B4M" secondAttribute="bottom" constant="30" id="Bhc-x9-E25"/>
-                                            <constraint firstItem="a53-tx-B4M" firstAttribute="leading" relation="lessThanOrEqual" secondItem="7Pq-OB-CN8" secondAttribute="leading" constant="20" symbolic="YES" placeholder="YES" id="VBH-dN-DAI"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="a53-tx-B4M" secondAttribute="trailing" id="aeV-FK-clh"/>
-                                            <constraint firstAttribute="bottom" secondItem="HsX-id-mYI" secondAttribute="bottom" constant="36" id="ejI-0H-Uce"/>
-                                            <constraint firstItem="a53-tx-B4M" firstAttribute="top" secondItem="e77-jy-9Ht" secondAttribute="bottom" constant="10" id="iLK-e6-P0c"/>
-                                            <constraint firstItem="HsX-id-mYI" firstAttribute="leading" secondItem="7Pq-OB-CN8" secondAttribute="leading" constant="50" id="jRo-AK-chf"/>
-                                            <constraint firstAttribute="trailing" secondItem="HsX-id-mYI" secondAttribute="trailing" constant="44" id="lNu-nY-p41"/>
-                                            <constraint firstAttribute="width" constant="414" id="nkK-rb-kha"/>
-                                            <constraint firstItem="e77-jy-9Ht" firstAttribute="centerX" secondItem="a53-tx-B4M" secondAttribute="centerX" id="x88-9L-35H"/>
+                                            <constraint firstItem="e77-jy-9Ht" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7Pq-OB-CN8" secondAttribute="leading" constant="20" symbolic="YES" id="KtG-RS-IHH"/>
+                                            <constraint firstItem="e77-jy-9Ht" firstAttribute="top" secondItem="7Pq-OB-CN8" secondAttribute="top" constant="16" id="Qkv-ev-7Fs"/>
+                                            <constraint firstAttribute="trailing" secondItem="a53-tx-B4M" secondAttribute="trailing" constant="28" id="dKK-Kd-IYr"/>
+                                            <constraint firstItem="a53-tx-B4M" firstAttribute="top" secondItem="e77-jy-9Ht" secondAttribute="bottom" constant="10" id="fDH-73-R8a"/>
+                                            <constraint firstItem="a53-tx-B4M" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7Pq-OB-CN8" secondAttribute="leading" constant="20" symbolic="YES" id="jal-nT-DcP"/>
+                                            <constraint firstAttribute="trailing" secondItem="e77-jy-9Ht" secondAttribute="trailing" constant="118.5" id="kqD-z1-djw"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rmV-Gi-c53" userLabel="View2">
@@ -277,6 +274,7 @@
                                     <constraint firstItem="7Pq-OB-CN8" firstAttribute="leading" secondItem="9FQ-ri-6HR" secondAttribute="leading" id="0bQ-6k-NKN"/>
                                     <constraint firstItem="rmV-Gi-c53" firstAttribute="top" secondItem="7Pq-OB-CN8" secondAttribute="bottom" id="BY6-Is-tEX"/>
                                     <constraint firstItem="dCv-8f-0vX" firstAttribute="top" secondItem="rmV-Gi-c53" secondAttribute="bottom" id="FUD-IS-mju"/>
+                                    <constraint firstItem="rmV-Gi-c53" firstAttribute="top" secondItem="9FQ-ri-6HR" secondAttribute="top" constant="180" id="K5z-zl-LHB"/>
                                     <constraint firstItem="7Pq-OB-CN8" firstAttribute="top" secondItem="9FQ-ri-6HR" secondAttribute="top" id="WYg-ky-vmu"/>
                                     <constraint firstItem="LVh-SW-Pcv" firstAttribute="top" secondItem="dCv-8f-0vX" secondAttribute="bottom" id="bbk-h5-rTs"/>
                                     <constraint firstItem="dCv-8f-0vX" firstAttribute="top" secondItem="9FQ-ri-6HR" secondAttribute="top" constant="360" id="lXS-e8-hRQ"/>
