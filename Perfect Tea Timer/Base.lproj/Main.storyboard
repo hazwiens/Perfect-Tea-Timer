@@ -75,10 +75,11 @@
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtM-VZ-nWE" userLabel="BlackButton">
                                                                 <rect key="frame" x="20" y="0.0" width="160" height="160"/>
+                                                                <accessibility key="accessibilityConfiguration" label="BlackButton"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                                 <connections>
-                                                                    <action selector="timeSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CPJ-df-8Dy"/>
+                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vbM-A5-wjY"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -101,12 +102,12 @@
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenTeaClear" translatesAutoresizingMaskIntoConstraints="NO" id="Quq-4v-T0v" userLabel="GreenTeaImage">
                                                                 <rect key="frame" x="27" y="0.0" width="160" height="160"/>
                                                             </imageView>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozP-zW-dH4" userLabel="Green Button">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozP-zW-dH4" userLabel="GreenButton">
                                                                 <rect key="frame" x="27" y="0.0" width="160" height="160"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                                 <connections>
-                                                                    <action selector="timeSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JRD-HJ-Zth"/>
+                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QJZ-h6-TVZ"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -151,7 +152,7 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                                 <connections>
-                                                                    <action selector="timeSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LTJ-Jn-k1W"/>
+                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qww-cG-lA3"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -180,7 +181,7 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                                 <connections>
-                                                                    <action selector="timeSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BdC-R8-wUM"/>
+                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZ6-A9-ODR"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -222,7 +223,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <action selector="timeSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U2v-Oj-oB3"/>
+                                                            <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jqz-xh-DFM"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -292,9 +293,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="choiceLabel" destination="a53-tx-B4M" id="fVF-Zq-Rdv"/>
-                        <outlet property="doneLabel" destination="e77-jy-9Ht" id="mbA-r6-opx"/>
-                        <outlet property="progressBar" destination="HsX-id-mYI" id="jbD-3O-jB5"/>
+                        <outlet property="choiceLabel" destination="a53-tx-B4M" id="Vfv-Qe-IMc"/>
+                        <outlet property="doneLabel" destination="e77-jy-9Ht" id="NNY-Vj-biG"/>
+                        <outlet property="progressBar" destination="HsX-id-mYI" id="kWE-M1-bhI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
