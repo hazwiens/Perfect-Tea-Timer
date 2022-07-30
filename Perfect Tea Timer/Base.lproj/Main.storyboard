@@ -79,7 +79,7 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                                 <connections>
-                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vbM-A5-wjY"/>
+                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="te0-B4-Ce0"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -104,10 +104,11 @@
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozP-zW-dH4" userLabel="GreenButton">
                                                                 <rect key="frame" x="27" y="0.0" width="160" height="160"/>
+                                                                <accessibility key="accessibilityConfiguration" label="GreenButton"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                                 <connections>
-                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QJZ-h6-TVZ"/>
+                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3FS-RV-FpL"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -149,10 +150,11 @@
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xa-P4-yH8" userLabel="HerbalButton">
                                                                 <rect key="frame" x="20" y="0.0" width="160" height="160"/>
+                                                                <accessibility key="accessibilityConfiguration" label="HerbalButton"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                                 <connections>
-                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qww-cG-lA3"/>
+                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xDH-5q-zHB"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -178,10 +180,11 @@
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wL-5I-ExD" userLabel="WhiteButton">
                                                                 <rect key="frame" x="27" y="0.0" width="160" height="160"/>
+                                                                <accessibility key="accessibilityConfiguration" label="WhiteButton"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                                 <connections>
-                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZ6-A9-ODR"/>
+                                                                    <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GMZ-3L-Mx0"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -220,10 +223,11 @@
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hO-Hf-Oqv" userLabel="CinnamonButton">
                                                         <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                                        <accessibility key="accessibilityConfiguration" label="CinnamonButton"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jqz-xh-DFM"/>
+                                                            <action selector="brewTime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="coN-oS-hLV"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -262,6 +266,9 @@
                                                     <fontDescription key="titleFontDescription" name="Verdana-Bold" family="Verdana" pointSize="30"/>
                                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clearSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ef-Yn-AeA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>

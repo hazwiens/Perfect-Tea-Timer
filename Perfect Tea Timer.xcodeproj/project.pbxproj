@@ -13,6 +13,7 @@
 		3357BFC2288DD6E60059E9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3357BFC0288DD6E60059E9D4 /* Main.storyboard */; };
 		3357BFC4288DD6E70059E9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3357BFC3288DD6E70059E9D4 /* Assets.xcassets */; };
 		3357BFC7288DD6E70059E9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3357BFC5288DD6E70059E9D4 /* LaunchScreen.storyboard */; };
+		33C98B1628945A970048D533 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33C98B1528945A970048D533 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3357BFC3288DD6E70059E9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3357BFC6288DD6E70059E9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3357BFC8288DD6E80059E9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C98B1528945A970048D533 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = ../../../Downloads/alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				3357BFBE288DD6E60059E9D4 /* ViewController.swift */,
 				3357BFC0288DD6E60059E9D4 /* Main.storyboard */,
 				3357BFC3288DD6E70059E9D4 /* Assets.xcassets */,
+				33C98B1528945A970048D533 /* alarm_sound.mp3 */,
 				3357BFC5288DD6E70059E9D4 /* LaunchScreen.storyboard */,
 				3357BFC8288DD6E80059E9D4 /* Info.plist */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				3357BFC7288DD6E70059E9D4 /* LaunchScreen.storyboard in Resources */,
 				3357BFC4288DD6E70059E9D4 /* Assets.xcassets in Resources */,
+				33C98B1628945A970048D533 /* alarm_sound.mp3 in Resources */,
 				3357BFC2288DD6E60059E9D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
